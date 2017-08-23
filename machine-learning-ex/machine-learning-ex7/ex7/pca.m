@@ -19,10 +19,10 @@ S = zeros(n);
 % Note: When computing the covariance matrix, remember to divide by m (the
 %       number of examples).
 %
+% 奇异值分解，对于数据计算协方差的方式。
+
 Sigma = (X' * X) / m; 
 [U, S, ~] = svd(Sigma);
-
-
 
 % =========================================================================
 
