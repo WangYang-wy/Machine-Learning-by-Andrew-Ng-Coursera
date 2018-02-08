@@ -1,3 +1,9 @@
+# MacOS
 **/.DS_Store
+
+# token
 **/token.mat
 **/submit.m
+
+# vscode
+**/.vscode
